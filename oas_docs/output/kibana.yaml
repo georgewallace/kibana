@@ -8178,6 +8178,7 @@ paths:
                 required:
                   - items
                   - total
+          description: Indicates a successful response
       summary: Get a list of dashboards
       tags:
         - Dashboards
@@ -8675,6 +8676,7 @@ paths:
                 required:
                   - item
                   - meta
+          description: Indicates a successful response
       summary: Get a dashboard
       tags:
         - Dashboards
@@ -9521,6 +9523,7 @@ paths:
                       - references
                 required:
                   - item
+          description: Indicates a successful response
       summary: Create a dashboard
       tags:
         - Dashboards
@@ -10363,6 +10366,7 @@ paths:
                       - references
                 required:
                   - item
+          description: Indicates a successful response
       summary: Update an existing dashboard
       tags:
         - Dashboards
@@ -19313,6 +19317,7 @@ paths:
                       - host
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19369,6 +19374,7 @@ paths:
                     type: string
                 required:
                   - id
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19467,6 +19473,7 @@ paths:
                       - host
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19626,6 +19633,7 @@ paths:
                       - host
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -20367,6 +20375,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -21264,6 +21273,7 @@ paths:
                       - revision
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -21970,6 +21980,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -22653,6 +22664,7 @@ paths:
                       - revision
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -23560,6 +23572,7 @@ paths:
                       - revision
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -23626,6 +23639,7 @@ paths:
                 required:
                   - currentVersions
                   - totalAgents
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24330,6 +24344,7 @@ paths:
                       - revision
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24388,6 +24403,7 @@ paths:
             application/json:
               schema:
                 type: string
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24814,6 +24830,7 @@ paths:
                           - inputs
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24918,6 +24935,7 @@ paths:
                       - data
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24986,6 +25004,7 @@ paths:
                 required:
                   - id
                   - name
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25108,6 +25127,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25207,6 +25227,7 @@ paths:
                       - active
                 required:
                   - results
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25290,6 +25311,7 @@ paths:
                 required:
                   - items
                   - dataPreview
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25702,6 +25724,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25767,6 +25790,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25825,6 +25849,7 @@ paths:
                     type: string
                 required:
                   - action
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26155,6 +26180,7 @@ paths:
                       - local_metadata
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26500,6 +26526,7 @@ paths:
                       - local_metadata
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26644,6 +26671,7 @@ paths:
                       - ack_data
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26707,6 +26735,7 @@ paths:
                 additionalProperties: false
                 type: object
                 properties: {}
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26777,6 +26806,7 @@ paths:
                     type: string
                 required:
                   - actionId
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26882,6 +26912,7 @@ paths:
                 additionalProperties: false
                 type: object
                 properties: {}
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26963,6 +26994,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27131,6 +27163,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27225,6 +27258,7 @@ paths:
                       - ack_data
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27271,6 +27305,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27345,6 +27380,7 @@ paths:
                     type: string
                 required:
                   - actionId
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27419,6 +27455,7 @@ paths:
                     type: string
                 required:
                   - actionId
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27498,6 +27535,7 @@ paths:
                     type: string
                 required:
                   - actionId
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27577,6 +27615,7 @@ paths:
                     type: string
                 required:
                   - actionId
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27662,6 +27701,7 @@ paths:
                     type: string
                 required:
                   - actionId
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27721,6 +27761,7 @@ paths:
                 required:
                   - id
                   - deleted
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27769,6 +27810,7 @@ paths:
             application/json:
               schema:
                 type: object
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27838,6 +27880,7 @@ paths:
                   - isReady
                   - missing_requirements
                   - missing_optional_features
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27903,6 +27946,7 @@ paths:
                 required:
                   - isInitialized
                   - nonFatalErrors
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27960,6 +28004,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28014,6 +28059,7 @@ paths:
                     type: boolean
                 required:
                   - success
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28119,6 +28165,7 @@ paths:
                     type: array
                 required:
                   - data_streams
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28255,6 +28302,7 @@ paths:
                   - page
                   - perPage
                   - list
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28354,6 +28402,7 @@ paths:
                 required:
                   - item
                   - action
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28412,6 +28461,7 @@ paths:
                     type: string
                 required:
                   - action
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28489,6 +28539,7 @@ paths:
                       - created_at
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28588,6 +28639,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28660,6 +28712,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28808,6 +28861,7 @@ paths:
                 required:
                   - items
                   - _meta
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28952,6 +29006,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -29365,6 +29420,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -29497,6 +29553,7 @@ paths:
                 required:
                   - items
                   - _meta
+          description: Indicates a successful response
         '400':
           content:
             application/gzip; application/zip:
@@ -29682,6 +29739,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -29800,6 +29858,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30286,6 +30345,7 @@ paths:
                       - has_policies
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30441,6 +30501,7 @@ paths:
                 required:
                   - items
                   - _meta
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30917,6 +30978,7 @@ paths:
                       - assets
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30969,6 +31031,7 @@ paths:
           content:
             application/json:
               schema: {}
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31030,6 +31093,7 @@ paths:
                     type: boolean
                 required:
                   - success
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31106,6 +31170,7 @@ paths:
                     type: boolean
                 required:
                   - success
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31198,6 +31263,7 @@ paths:
                     - success
                     - error
                 type: array
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31253,6 +31319,7 @@ paths:
                       - agent_policy_count
                 required:
                   - response
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31407,6 +31474,7 @@ paths:
                 required:
                   - items
                   - total
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31453,6 +31521,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31561,6 +31630,7 @@ paths:
                         type: array
                     required:
                       - inputs
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31606,6 +31676,7 @@ paths:
                     type: string
                 required:
                   - id
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31742,6 +31813,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31958,6 +32030,7 @@ paths:
                       - id
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32014,6 +32087,7 @@ paths:
                     type: string
                 required:
                   - id
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32143,6 +32217,7 @@ paths:
                       - id
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32357,6 +32432,7 @@ paths:
                       - id
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32423,6 +32499,7 @@ paths:
                     type: string
                 required:
                   - status
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32502,6 +32579,7 @@ paths:
                     type: string
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32555,6 +32633,7 @@ paths:
             application/json:
               schema:
                 type: string
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32626,6 +32705,7 @@ paths:
                     type: string
                 required:
                   - api_key
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32683,6 +32763,7 @@ paths:
                     type: string
                 required:
                   - message
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -33479,6 +33560,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -34976,6 +35058,7 @@ paths:
                           - password
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -35032,6 +35115,7 @@ paths:
                     type: string
                 required:
                   - id
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -35821,6 +35905,7 @@ paths:
                           - password
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -37302,6 +37387,7 @@ paths:
                           - password
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -37360,6 +37446,7 @@ paths:
                   - state
                   - message
                   - timestamp
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -37839,6 +37926,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -38694,6 +38782,7 @@ paths:
                       - created_by
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -39169,6 +39258,7 @@ paths:
                     type: array
                 required:
                   - items
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -39241,6 +39331,7 @@ paths:
                     type: string
                 required:
                   - id
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -39676,6 +39767,7 @@ paths:
                       - created_by
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -40541,6 +40633,7 @@ paths:
                       - created_by
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -40698,6 +40791,7 @@ paths:
                     - policy_ids
                     - package
                 type: array
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -40779,6 +40873,7 @@ paths:
                     - id
                     - success
                 type: array
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41627,6 +41722,7 @@ paths:
                   required:
                     - hasErrors
                 type: array
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41714,6 +41810,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41832,6 +41929,7 @@ paths:
                       - name
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41888,6 +41986,7 @@ paths:
                     type: string
                 required:
                   - id
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41968,6 +42067,7 @@ paths:
                       - name
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42088,6 +42188,7 @@ paths:
                       - name
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42191,6 +42292,7 @@ paths:
                     type: array
                 required:
                   - integrations
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42289,6 +42391,7 @@ paths:
                     type: array
                 required:
                   - integrations
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42354,6 +42457,7 @@ paths:
                 required:
                   - name
                   - value
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42440,6 +42544,7 @@ paths:
                       - id
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42574,6 +42679,7 @@ paths:
                       - id
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42651,6 +42757,7 @@ paths:
                 required:
                   - isInitialized
                   - nonFatalErrors
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42763,6 +42870,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42834,6 +42942,7 @@ paths:
                       - token
                 required:
                   - item
+          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -49147,6 +49256,7 @@ paths:
                   $ref: '#/components/examples/copy_saved_objects_response3'
                 copySavedObjectsResponseExample4:
                   $ref: '#/components/examples/copy_saved_objects_response4'
+          description: Indicates a successful response
       summary: Copy saved objects between spaces
       tags:
         - spaces
@@ -49331,6 +49441,7 @@ paths:
                   $ref: '#/components/examples/copy_saved_objects_response1'
                 resolveCopySavedObjectsResponseExample2:
                   $ref: '#/components/examples/copy_saved_objects_response2'
+          description: Indicates a successful response
       summary: Resolve conflicts copying saved objects
       tags: []
       x-metaTags:
@@ -49394,6 +49505,7 @@ paths:
               examples:
                 updateObjectSpacesResponseExample1:
                   $ref: '#/components/examples/update_saved_objects_spaces_response1'
+          description: Indicates a successful response
       summary: Update saved objects in spaces
       tags:
         - spaces
@@ -57074,6 +57186,7 @@ paths:
                       description: The unique identifier of the deleted monitor.
                       type: string
                 type: array
+          description: Indicates a successful response
       summary: Delete monitors
       tags:
         - synthetics
@@ -57173,6 +57286,7 @@ paths:
                     }
               schema:
                 type: object
+          description: Indicates a successful response
         '404':
           description: If the monitor is not found, the API returns a 404 error.
       summary: Get a monitor

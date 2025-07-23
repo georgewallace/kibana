@@ -19158,6 +19158,7 @@ paths:
                   - total
                   - page
                   - perPage
+          description: Returns the list of agent download sources.
         '400':
           content:
             application/json:

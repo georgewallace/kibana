@@ -24445,6 +24445,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a resource not found
       summary: Download an agent policy
       tags:
         - Elastic Agent policies
@@ -32541,6 +32542,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a resource not found
       summary: Check Fleet Server health
       tags:
         - Fleet internals
@@ -32675,6 +32677,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a resource not found
       summary: Download an agent manifest
       tags:
         - Elastic Agent policies
@@ -35157,6 +35160,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a resource not found
       summary: Delete output
       tags:
         - Fleet outputs
@@ -39291,6 +39295,7 @@ paths:
                     type: string
                 required:
                   - message
+          description: Indicates a resource not found
       summary: Bulk get package policies
       tags:
         - Fleet package policies
@@ -39800,6 +39805,7 @@ paths:
                     type: string
                 required:
                   - message
+          description: Indicates a resource not found
       summary: Get a package policy
       tags:
         - Fleet package policies
@@ -42577,6 +42583,7 @@ paths:
                     type: string
                 required:
                   - message
+          description: Indicates a resource not found
       summary: Get settings
       tags:
         - Fleet internals
@@ -42712,6 +42719,7 @@ paths:
                     type: string
                 required:
                   - message
+          description: Indicates a resource not found
       summary: Update settings
       tags:
         - Fleet internals

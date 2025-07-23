@@ -8178,7 +8178,6 @@ paths:
                 required:
                   - items
                   - total
-          description: Indicates a successful response
       summary: Get a list of dashboards
       tags:
         - Dashboards
@@ -8676,7 +8675,6 @@ paths:
                 required:
                   - item
                   - meta
-          description: Indicates a successful response
       summary: Get a dashboard
       tags:
         - Dashboards
@@ -9523,7 +9521,6 @@ paths:
                       - references
                 required:
                   - item
-          description: Indicates a successful response
       summary: Create a dashboard
       tags:
         - Dashboards
@@ -10366,7 +10363,6 @@ paths:
                       - references
                 required:
                   - item
-          description: Indicates a successful response
       summary: Update an existing dashboard
       tags:
         - Dashboards
@@ -19183,6 +19179,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agent binary download sources
       tags:
         - Elastic Agent binary download sources
@@ -19316,7 +19313,6 @@ paths:
                       - host
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19337,6 +19333,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create an agent binary download source
       tags:
         - Elastic Agent binary download sources
@@ -19372,7 +19369,6 @@ paths:
                     type: string
                 required:
                   - id
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19393,6 +19389,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete an agent binary download source
       tags:
         - Elastic Agent binary download sources
@@ -19470,7 +19467,6 @@ paths:
                       - host
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19491,6 +19487,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an agent binary download source
       tags:
         - Elastic Agent binary download sources
@@ -19629,7 +19626,6 @@ paths:
                       - host
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -19650,6 +19646,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update an agent binary download source
       tags:
         - Elastic Agent binary download sources
@@ -20370,7 +20367,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -20391,6 +20387,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agent policies
       tags:
         - Elastic Agent policies
@@ -21267,7 +21264,6 @@ paths:
                       - revision
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -21288,6 +21284,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create an agent policy
       tags:
         - Elastic Agent policies
@@ -21973,7 +21970,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -21994,6 +21990,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk get agent policies
       tags:
         - Elastic Agent policies
@@ -22656,7 +22653,6 @@ paths:
                       - revision
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -22677,6 +22673,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an agent policy
       tags:
         - Elastic Agent policies
@@ -23563,7 +23560,6 @@ paths:
                       - revision
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -23584,6 +23580,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update an agent policy
       tags:
         - Elastic Agent policies
@@ -23629,7 +23626,6 @@ paths:
                 required:
                   - currentVersions
                   - totalAgents
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -23650,6 +23646,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get auto upgrade agent status
       tags:
         - Elastic Agent policies
@@ -24333,7 +24330,6 @@ paths:
                       - revision
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24354,6 +24350,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Copy an agent policy
       tags:
         - Elastic Agent policies
@@ -24391,7 +24388,6 @@ paths:
             application/json:
               schema:
                 type: string
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24412,6 +24408,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -24817,7 +24814,6 @@ paths:
                           - inputs
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24838,6 +24834,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a full agent policy
       tags:
         - Elastic Agent policies
@@ -24921,7 +24918,6 @@ paths:
                       - data
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -24942,6 +24938,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get outputs for an agent policy
       tags:
         - Elastic Agent policies
@@ -24989,7 +24986,6 @@ paths:
                 required:
                   - id
                   - name
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25010,6 +25006,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete an agent policy
       tags:
         - Elastic Agent policies
@@ -25111,7 +25108,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25132,6 +25128,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get outputs for agent policies
       tags:
         - Elastic Agent policies
@@ -25210,7 +25207,6 @@ paths:
                       - active
                 required:
                   - results
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25231,6 +25227,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an agent status summary
       tags:
         - Elastic Agent status
@@ -25293,7 +25290,6 @@ paths:
                 required:
                   - items
                   - dataPreview
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25314,6 +25310,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get incoming agent data
       tags:
         - Elastic Agents
@@ -25705,7 +25702,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25726,6 +25722,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agents
       tags:
         - Elastic Agents
@@ -25770,7 +25767,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25791,6 +25787,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agents by action ids
       tags:
         - Elastic Agents
@@ -25828,7 +25825,6 @@ paths:
                     type: string
                 required:
                   - action
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -25849,6 +25845,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete an agent
       tags:
         - Elastic Agents
@@ -26158,7 +26155,6 @@ paths:
                       - local_metadata
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26179,6 +26175,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an agent
       tags:
         - Elastic Agents
@@ -26503,7 +26500,6 @@ paths:
                       - local_metadata
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26524,6 +26520,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update an agent
       tags:
         - Elastic Agents
@@ -26647,7 +26644,6 @@ paths:
                       - ack_data
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26668,6 +26664,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create an agent action
       tags:
         - Elastic Agent actions
@@ -26710,7 +26707,6 @@ paths:
                 additionalProperties: false
                 type: object
                 properties: {}
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26731,6 +26727,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Reassign an agent
       tags:
         - Elastic Agent actions
@@ -26780,7 +26777,6 @@ paths:
                     type: string
                 required:
                   - actionId
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26801,6 +26797,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Request agent diagnostics
       tags:
         - Elastic Agent actions
@@ -26885,7 +26882,6 @@ paths:
                 additionalProperties: false
                 type: object
                 properties: {}
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26906,6 +26902,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Upgrade an agent
       tags:
         - Elastic Agent actions
@@ -26966,7 +26963,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -26987,6 +26983,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agent uploads
       tags:
         - Elastic Agents
@@ -27134,7 +27131,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27155,6 +27151,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an agent action status
       tags:
         - Elastic Agent actions
@@ -27228,7 +27225,6 @@ paths:
                       - ack_data
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27249,6 +27245,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Cancel an agent action
       tags:
         - Elastic Agent actions
@@ -27274,7 +27271,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27295,6 +27291,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get available agent versions
       tags:
         - Elastic Agents
@@ -27348,7 +27345,6 @@ paths:
                     type: string
                 required:
                   - actionId
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27369,6 +27365,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk reassign agents
       tags:
         - Elastic Agent actions
@@ -27422,7 +27419,6 @@ paths:
                     type: string
                 required:
                   - actionId
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27443,6 +27439,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk request diagnostics from agents
       tags:
         - Elastic Agent actions
@@ -27501,7 +27498,6 @@ paths:
                     type: string
                 required:
                   - actionId
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27522,6 +27518,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk unenroll agents
       tags:
         - Elastic Agent actions
@@ -27580,7 +27577,6 @@ paths:
                     type: string
                 required:
                   - actionId
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27601,6 +27597,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk update agent tags
       tags:
         - Elastic Agent actions
@@ -27665,7 +27662,6 @@ paths:
                     type: string
                 required:
                   - actionId
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27686,6 +27682,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk upgrade agents
       tags:
         - Elastic Agent actions
@@ -27724,7 +27721,6 @@ paths:
                 required:
                   - id
                   - deleted
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27745,6 +27741,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete an uploaded file
       tags:
         - Elastic Agents
@@ -27772,7 +27769,6 @@ paths:
             application/json:
               schema:
                 type: object
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27793,6 +27789,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an uploaded file
       tags:
         - Elastic Agents
@@ -27841,7 +27838,6 @@ paths:
                   - isReady
                   - missing_requirements
                   - missing_optional_features
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27862,6 +27858,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agent setup info
       tags:
         - Elastic Agents
@@ -27906,7 +27903,6 @@ paths:
                 required:
                   - isInitialized
                   - nonFatalErrors
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27927,6 +27923,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Initiate agent setup
       tags:
         - Elastic Agents
@@ -27963,7 +27960,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -27984,6 +27980,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get agent tags
       tags:
         - Elastic Agents
@@ -28017,7 +28014,6 @@ paths:
                     type: boolean
                 required:
                   - success
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28038,6 +28034,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Check permissions
       tags:
         - Fleet internals
@@ -28122,7 +28119,6 @@ paths:
                     type: array
                 required:
                   - data_streams
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28143,6 +28139,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get data streams
       tags:
         - Data streams
@@ -28258,7 +28255,6 @@ paths:
                   - page
                   - perPage
                   - list
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28279,6 +28275,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get enrollment API keys
       tags:
         - Fleet enrollment API keys
@@ -28357,7 +28354,6 @@ paths:
                 required:
                   - item
                   - action
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28378,6 +28374,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create an enrollment API key
       tags:
         - Fleet enrollment API keys
@@ -28415,7 +28412,6 @@ paths:
                     type: string
                 required:
                   - action
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28436,6 +28432,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Revoke an enrollment API key
       tags:
         - Fleet enrollment API keys
@@ -28492,7 +28489,6 @@ paths:
                       - created_at
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28513,6 +28509,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an enrollment API key
       tags:
         - Fleet enrollment API keys
@@ -28591,7 +28588,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28612,6 +28608,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk get assets
       tags:
         - Elastic Package Manager (EPM)
@@ -28663,7 +28660,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28684,6 +28680,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get package categories
       tags:
         - Elastic Package Manager (EPM)
@@ -28811,7 +28808,6 @@ paths:
                 required:
                   - items
                   - _meta
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28832,6 +28828,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create a custom integration
       tags:
         - Elastic Package Manager (EPM)
@@ -28892,6 +28889,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update a custom integration
       tags:
         - Elastic Package Manager (EPM)
@@ -28954,7 +28952,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -28975,6 +28972,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get data streams
       tags:
         - Data streams
@@ -29367,7 +29365,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -29388,6 +29385,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get packages
       tags:
         - Elastic Package Manager (EPM)
@@ -29499,7 +29497,6 @@ paths:
                 required:
                   - items
                   - _meta
-          description: Indicates a successful response
         '400':
           content:
             application/gzip; application/zip:
@@ -29520,6 +29517,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Install a package by upload
       tags:
         - Elastic Package Manager (EPM)
@@ -29684,7 +29682,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -29705,6 +29702,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk install packages
       tags:
         - Elastic Package Manager (EPM)
@@ -29802,7 +29800,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -29823,6 +29820,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete a package
       tags:
         - Elastic Package Manager (EPM)
@@ -30288,7 +30286,6 @@ paths:
                       - has_policies
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30309,6 +30306,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a package
       tags:
         - Elastic Package Manager (EPM)
@@ -30443,7 +30441,6 @@ paths:
                 required:
                   - items
                   - _meta
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30464,6 +30461,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Install a package from the registry
       tags:
         - Elastic Package Manager (EPM)
@@ -30919,7 +30917,6 @@ paths:
                       - assets
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30940,6 +30937,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update package settings
       tags:
         - Elastic Package Manager (EPM)
@@ -30971,7 +30969,6 @@ paths:
           content:
             application/json:
               schema: {}
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -30992,6 +30989,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a package file
       tags:
         - Elastic Package Manager (EPM)
@@ -31032,7 +31030,6 @@ paths:
                     type: boolean
                 required:
                   - success
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31053,6 +31050,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete Kibana assets for a package
       tags:
         - Elastic Package Manager (EPM)
@@ -31108,7 +31106,6 @@ paths:
                     type: boolean
                 required:
                   - success
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31129,6 +31126,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Install Kibana assets for a package
       tags:
         - Elastic Package Manager (EPM)
@@ -31200,7 +31198,6 @@ paths:
                     - success
                     - error
                 type: array
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31221,6 +31218,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Authorize transforms
       tags:
         - Elastic Package Manager (EPM)
@@ -31255,7 +31253,6 @@ paths:
                       - agent_policy_count
                 required:
                   - response
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31276,6 +31273,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get package stats
       tags:
         - Elastic Package Manager (EPM)
@@ -31409,7 +31407,6 @@ paths:
                 required:
                   - items
                   - total
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31430,6 +31427,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get installed packages
       tags:
         - Elastic Package Manager (EPM)
@@ -31455,7 +31453,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31476,6 +31473,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a limited package list
       tags:
         - Elastic Package Manager (EPM)
@@ -31563,7 +31561,6 @@ paths:
                         type: array
                     required:
                       - inputs
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31584,6 +31581,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get an inputs template
       tags:
         - Elastic Package Manager (EPM)
@@ -31608,7 +31606,6 @@ paths:
                     type: string
                 required:
                   - id
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31629,6 +31626,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a package signature verification key ID
       tags:
         - Elastic Package Manager (EPM)
@@ -31744,7 +31742,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31765,6 +31762,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get Fleet Server hosts
       tags:
         - Fleet Server hosts
@@ -31960,7 +31958,6 @@ paths:
                       - id
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -31981,6 +31978,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create a Fleet Server host
       tags:
         - Fleet Server hosts
@@ -32016,7 +32014,6 @@ paths:
                     type: string
                 required:
                   - id
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32037,6 +32034,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete a Fleet Server host
       tags:
         - Fleet Server hosts
@@ -32145,7 +32143,6 @@ paths:
                       - id
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32166,6 +32163,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a Fleet Server host
       tags:
         - Fleet Server hosts
@@ -32359,7 +32357,6 @@ paths:
                       - id
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32380,6 +32377,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update a Fleet Server host
       tags:
         - Fleet Server hosts
@@ -32425,7 +32423,6 @@ paths:
                     type: string
                 required:
                   - status
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32446,6 +32443,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -32504,7 +32502,6 @@ paths:
                     type: string
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32525,6 +32522,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a full K8s agent manifest
       tags:
         - Elastic Agent policies
@@ -32557,7 +32555,6 @@ paths:
             application/json:
               schema:
                 type: string
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32578,6 +32575,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -32628,7 +32626,6 @@ paths:
                     type: string
                 required:
                   - api_key
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32649,6 +32646,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Generate a Logstash API key
       tags:
         - Fleet outputs
@@ -32685,7 +32683,6 @@ paths:
                     type: string
                 required:
                   - message
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -32706,6 +32703,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '500':
           content:
             application/json:
@@ -33481,7 +33479,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -33502,6 +33499,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get outputs
       tags:
         - Fleet outputs
@@ -34978,7 +34976,6 @@ paths:
                           - password
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -34999,6 +34996,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create output
       tags:
         - Fleet outputs
@@ -35034,7 +35032,6 @@ paths:
                     type: string
                 required:
                   - id
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -35055,6 +35052,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -35823,7 +35821,6 @@ paths:
                           - password
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -35844,6 +35841,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get output
       tags:
         - Fleet outputs
@@ -37304,7 +37302,6 @@ paths:
                           - password
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -37325,6 +37322,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update output
       tags:
         - Fleet outputs
@@ -37362,7 +37360,6 @@ paths:
                   - state
                   - message
                   - timestamp
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -37383,6 +37380,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get the latest output health
       tags:
         - Fleet outputs
@@ -37841,7 +37839,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -37862,6 +37859,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get package policies
       tags:
         - Fleet package policies
@@ -38696,7 +38694,6 @@ paths:
                       - created_by
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -38717,6 +38714,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '409':
           content:
             application/json:
@@ -39171,7 +39169,6 @@ paths:
                     type: array
                 required:
                   - items
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -39192,6 +39189,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -39243,7 +39241,6 @@ paths:
                     type: string
                 required:
                   - id
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -39264,6 +39261,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete a package policy
       tags:
         - Fleet package policies
@@ -39678,7 +39676,6 @@ paths:
                       - created_by
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -39699,6 +39696,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -40543,7 +40541,6 @@ paths:
                       - created_by
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -40564,6 +40561,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '403':
           content:
             application/json:
@@ -40700,7 +40698,6 @@ paths:
                     - policy_ids
                     - package
                 type: array
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -40721,6 +40718,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Bulk delete package policies
       tags:
         - Fleet package policies
@@ -40781,7 +40779,6 @@ paths:
                     - id
                     - success
                 type: array
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -40802,6 +40799,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Upgrade a package policy
       tags:
         - Fleet package policies
@@ -41629,7 +41627,6 @@ paths:
                   required:
                     - hasErrors
                 type: array
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41650,6 +41647,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Dry run a package policy upgrade
       tags:
         - Fleet package policies
@@ -41716,7 +41714,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41737,6 +41734,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get proxies
       tags:
         - Fleet proxies
@@ -41834,7 +41832,6 @@ paths:
                       - name
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41855,6 +41852,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create a proxy
       tags:
         - Fleet proxies
@@ -41890,7 +41888,6 @@ paths:
                     type: string
                 required:
                   - id
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41911,6 +41908,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Delete a proxy
       tags:
         - Fleet proxies
@@ -41970,7 +41968,6 @@ paths:
                       - name
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -41991,6 +41988,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a proxy
       tags:
         - Fleet proxies
@@ -42090,7 +42088,6 @@ paths:
                       - name
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42111,6 +42108,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Update a proxy
       tags:
         - Fleet proxies
@@ -42193,7 +42191,6 @@ paths:
                     type: array
                 required:
                   - integrations
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42214,6 +42211,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get CCR Remote synced integrations status by outputId
       tags:
         - CCR Remote synced integrations
@@ -42291,7 +42289,6 @@ paths:
                     type: array
                 required:
                   - integrations
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42312,6 +42309,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get CCR Remote synced integrations status
       tags:
         - CCR Remote synced integrations
@@ -42356,7 +42354,6 @@ paths:
                 required:
                   - name
                   - value
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42377,6 +42374,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Create a service token
       tags:
         - Fleet service tokens
@@ -42442,7 +42440,6 @@ paths:
                       - id
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42463,6 +42460,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -42576,7 +42574,6 @@ paths:
                       - id
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42597,6 +42594,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '404':
           content:
             application/json:
@@ -42653,7 +42651,6 @@ paths:
                 required:
                   - isInitialized
                   - nonFatalErrors
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42674,6 +42671,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
         '500':
           content:
             application/json:
@@ -42765,7 +42763,6 @@ paths:
                   - total
                   - page
                   - perPage
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42786,6 +42783,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get metadata for latest uninstall tokens
       tags:
         - Fleet uninstall tokens
@@ -42836,7 +42834,6 @@ paths:
                       - token
                 required:
                   - item
-          description: Indicates a successful response
         '400':
           content:
             application/json:
@@ -42857,6 +42854,7 @@ paths:
                 required:
                   - message
                   - attributes
+          description: Indicates a bad request or error response
       summary: Get a decrypted uninstall token
       tags:
         - Fleet uninstall tokens
@@ -49149,7 +49147,6 @@ paths:
                   $ref: '#/components/examples/copy_saved_objects_response3'
                 copySavedObjectsResponseExample4:
                   $ref: '#/components/examples/copy_saved_objects_response4'
-          description: Indicates a successful response
       summary: Copy saved objects between spaces
       tags:
         - spaces
@@ -49334,7 +49331,6 @@ paths:
                   $ref: '#/components/examples/copy_saved_objects_response1'
                 resolveCopySavedObjectsResponseExample2:
                   $ref: '#/components/examples/copy_saved_objects_response2'
-          description: Indicates a successful response
       summary: Resolve conflicts copying saved objects
       tags: []
       x-metaTags:
@@ -49398,7 +49394,6 @@ paths:
               examples:
                 updateObjectSpacesResponseExample1:
                   $ref: '#/components/examples/update_saved_objects_spaces_response1'
-          description: Indicates a successful response
       summary: Update saved objects in spaces
       tags:
         - spaces
@@ -57079,7 +57074,6 @@ paths:
                       description: The unique identifier of the deleted monitor.
                       type: string
                 type: array
-          description: Indicates a successful response
       summary: Delete monitors
       tags:
         - synthetics
@@ -57179,7 +57173,6 @@ paths:
                     }
               schema:
                 type: object
-          description: Indicates a successful response
         '404':
           description: If the monitor is not found, the API returns a 404 error.
       summary: Get a monitor

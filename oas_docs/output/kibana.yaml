@@ -28923,7 +28923,8 @@ paths:
               required:
                 - readMeData
       responses:
-        '200': {}
+        '200':
+          description: Indicates a successful response
         '400':
           content:
             application/json:
